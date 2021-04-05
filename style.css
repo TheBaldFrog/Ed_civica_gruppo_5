@@ -1,11 +1,3 @@
-/* NOTE:
- * Grid/Flex layout stuff starts at line 187. 
- * The stuff before is just boring old CSS to make content look not crappy.
- */
-
-/*--------------------------------------------------------------
-CSS Reset
---------------------------------------------------------------*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -23,13 +15,14 @@ img {
   height: auto;
 }
 
-/* navigation */
+/* Navigation ---------------------------------------------------------------------------------*/
 .navigation {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   grid-gap: 10px;
+  max-height: 60px;
 
-  padding-bottom: 3px;
+  /* padding-bottom: 3px; */
   background-color: rgba(0, 0, 0, 0.85);
 
   position: fixed;
@@ -40,19 +33,19 @@ img {
 .navLinks {
   display: flex;
   grid-column: 4 / span 3;
-  font-size: 40px;
+
 
   justify-content: space-around;
   align-items: center;
 
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .navLinks .item a {
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .titleContainer {
@@ -65,7 +58,7 @@ img {
   grid-column: 1 / span 3;
 
   /* font-family: 'Zilla Slab Highlight', cursive; */
-  font-size: 40px;
+  font-size: 35px;
   color: #f2f2f2;
 }
 
@@ -75,7 +68,7 @@ img {
   width: 30px;
 }
 
-/* DROP MENU */
+/* DROP MENU ------------------------------------------------------------------------------*/
 .dropMenu {
   display: flex;
   justify-content: center;
@@ -304,10 +297,6 @@ Use flex to create a three-bucket layout
 .buckets li {
   width: 31%;
 }
-
-/*--------------------------------------------------------------
-CSS Grid layout for wider screens, when browser supports grid:
---------------------------------------------------------------*/
 
 /* Four-column layout. Two center columns have a total max width of 50em: */
 .grid {
