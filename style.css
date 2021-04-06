@@ -123,7 +123,20 @@ img {
   border-radius: 10px;
 }
 
-.content a:hover {
+.content div button {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.9);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.content div button:hover {
+  background-color: #f7f7f7;
+}
+
+.content div a:hover {
   background-color: #f7f7f7;
 }
 
