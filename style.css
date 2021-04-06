@@ -2,13 +2,14 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
 }
 
-.title-img img {
+img {
   display: block;
   border: 0;
   width: 100%;
@@ -37,19 +38,11 @@ body {
   align-items: center;
   grid-column: 4 / span 3;
   text-transform: uppercase;
-  /* width: 400px; */
-
-  /* //transform: translateX(50%) */
-
 }
 
- .item a {
-   margin-left: 20px; 
-}
-
-.navLinks  a {
-  color: #f2f2f2;
+.navLinks a {
   text-decoration: none;
+  color: #f2f2f2;
   font-size: 15px;
   font-weight: 600;
 }
@@ -98,6 +91,7 @@ body {
 }
 
 .Menu-img:hover {
+  transition: 0.5s;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
@@ -129,25 +123,14 @@ body {
   border-radius: 10px;
 }
 
-.content div button {
-  border: none;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(211, 211, 211, 0.9);
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.content div button:hover {
-  background-color: #f7f7f7;
-}
-
-.content div a:hover {
+.content a:hover {
   background-color: #f7f7f7;
 }
 
 .Menu-img:hover .content {
   display: block;
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  transition: width 2s, height 2s, transform 2s;
 }
 /*--------------------------------------------------------------
 Accessibility
