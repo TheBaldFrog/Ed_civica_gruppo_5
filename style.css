@@ -50,6 +50,7 @@ img {
 .titleContainer {
   display: flex;
   align-items: center;
+  margin-left: 1rem; 
 }
 
 .navTitle {
@@ -238,6 +239,14 @@ p {
   background: #3e454c;
 }
 
+.bucket p {
+  text-align: justify;
+}
+
+#imgBuckets {
+  height: 170px;
+}
+
 .buckets ul {
   margin: 0;
   padding: 0;
@@ -268,7 +277,7 @@ p {
 }
 
 .twin:last-of-type {
-  background: #ff7f66;
+  background: rgba(255, 127, 102, 1);
 }
 
 /* Colophon section */
@@ -317,4 +326,48 @@ Use flex to create a three-bucket layout
 .twin,
 .colophon aside {
   grid-column: span 2;
+}
+
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.titlePage{
+  margin-top: 80px;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.more-content p {
+  
+  /* border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 2px;
+  border-color: rgba(0, 0,0, 0.7); */
+
+  text-align: justify;
+  /* margin-bottom: 1px; */
+}
+
+.more {
+  background-color: #fff6e5;
+}
+
+.line {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 2px;
+  width: 0px;
+}
+
+ .line {
+  width: 100%;
+  border-radius: 100%;
 }
