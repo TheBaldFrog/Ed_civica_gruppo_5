@@ -384,7 +384,8 @@ html {
 
   .img_manifesto .line {
       
-      margin: 2px;
+      margin-bottom: 2px;
+      background-color: #ffefd4;
   }
 
   .img_manifesto img{
