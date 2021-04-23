@@ -237,7 +237,7 @@ html {
   
   .buckets {
     padding: 2em 1em 1em;
-    background: #5b8a72;
+    background: #2b4f60;
   }
   
   .bucket p {
@@ -273,12 +273,12 @@ html {
   
   .twin {
     padding: 2em;
-    background: #56776c;
+    background: #709fb0;
     color: rgb(250, 243, 233);
   }
-  
-  .twin:last-of-type {
-    background: #56776c;
+
+  .twin p {
+      text-align: justify;
   }
   
   /* Colophon section */
@@ -316,7 +316,6 @@ html {
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
   
-  
   /* Center items by placing them in the two center columns: */
   .splash-content,
   .more-content,
@@ -346,14 +345,7 @@ html {
   }
   
   .more-content p {
-    /* border-style: solid;
-    border-radius: 5px;
-    padding: 5px;
-    border-width: 2px;
-    border-color: rgba(0, 0,0, 0.7); */
-  
     text-align: justify;
-    /* margin-bottom: 1px; */
   }
   
   .more {
@@ -376,27 +368,3 @@ html {
      font-size: 15px;
      
   }
-
-  .img_manifesto{
-      display: flexbox;
-      /* justify-content: center; */
-      /* align-content: center; */
-      align-items: center;
-  }
-
-  .img_manifesto .line {
-      
-      margin-bottom: 2px;
-      background-color: #ffefd4;
-  }
-
-  .img_manifesto img{
-      display: block;
-      margin: 7px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 800px;
-     /* margin: 0, auto; */
-  }
-  
