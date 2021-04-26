@@ -367,3 +367,15 @@ iframe {
 footer {
   font-size: 15px;
 }
+
+footer aside a{
+  text-decoration: underline;
+}
+
+footer aside a:hover{
+  text-decoration: none;
+}
+
+footer .aNone a{
+  text-decoration: none;
+}
