@@ -378,6 +378,10 @@ footer aside a:hover{
   text-decoration: none;
 }
 
+footer .aNone a{
+  text-decoration: none;
+}
+
 /* footer aside span a{
   text-decoration: underline;
 }
