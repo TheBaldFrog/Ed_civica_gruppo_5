@@ -4,7 +4,7 @@ Gruppo: 5
 
 Classe: 3c-i
 
-Realizzatori: D'Amico William, Moraru Liviu, Grupico Edoardo, Todaro Matteo.
+Realizzatori: [D'Amico William](https://github.com/william1908), [Moraru Liviu](https://github.com/TheBaldFrog), Grupico Edoardo, Todaro Matteo.
 
 ## Descrizione sintetica
 
