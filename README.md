@@ -8,7 +8,7 @@ Realizzatori: [D'Amico William](https://github.com/william1908), [Moraru Liviu](
 
 ## Descrizione sintetica
 
-Creazione di un sito che comprende gli argomenti dell'educazione civica
+Creazione di un [sito](https://thebaldfrog.github.io/Ed_civica_gruppo_5/) che comprende gli argomenti dell'educazione civica
 dell'anno scolastica 2020/2021
 
 ## License
