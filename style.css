@@ -369,3 +369,19 @@ footer{
    font-size: 15px;
    
 }
+
+footer aside a{
+  text-decoration: underline;
+}
+
+footer aside a:hover{
+  text-decoration: none;
+}
+
+/* footer aside span a{
+  text-decoration: underline;
+}
+
+footer aside span a:hover{
+  text-decoration: none;
+} */
